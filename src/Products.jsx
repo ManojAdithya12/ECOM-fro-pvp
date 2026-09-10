@@ -7,7 +7,7 @@ function Products() {
 
       {
         products.map((n)=>{
-          return <Card name={n.title} image={n.image} price={n.price}  />
+          return <Card name={n.title} image={n.image} price={n.price} />
         })
       }
      </div>

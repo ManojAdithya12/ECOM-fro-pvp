@@ -1,7 +1,7 @@
 
 import './App.css'
 import Header from './Header'
-import Products from './Products'
+import Products from './products'
 function App() {
 
   return (
@@ -9,6 +9,7 @@ function App() {
     <>
       <Header/>
      <Products/>  
+     <button>Submit</button>
     </>
   )
 }
